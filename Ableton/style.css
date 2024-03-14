@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+
+nav{
+    padding: 1.25rem;
+}
+
+.nav_logo_link{
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.nav__logo__image {
+    display: block;
+    width: 3.75em;
+    height: 1.75em;
+}
+
+.nav-main__links{
+    width: 100%;
+    padding: 2px;
+    margin-left: 8%;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+.nav__link-item:nth-child(9){
+    /* margin-right: 0;
+    margin-left: auto;
+    padding-right: 0;
+    margin-left: auto; */
+    color: blue;
+}
+
+.nav__separator{
+    display: block;
+    height: 1px;
+    background: purple;
+    /* outline: 1px solid red; */
+}
